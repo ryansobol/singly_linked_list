@@ -40,7 +40,7 @@ class SinglyLinkedList
     @size -= 1
 
     temp  = @head
-    @head = temp.next
+    @head = @head.next
 
     temp.clear
   end
