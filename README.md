@@ -27,4 +27,4 @@ Copyright (c) 2013 Ryan Sobol
 
 3. Using `@tail`, define a `last` method that's the counterpart to the `first` method.
 
-4. Update `unshift` method so it deletes the `@tail` reference when the object becomes empty.
+4. Update the `unshift` method so it deletes the `@tail` reference when the singly linked list object becomes empty.
