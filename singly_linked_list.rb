@@ -1,19 +1,19 @@
-class SinglyLinkedList
-  class Node
-    def initialize(item, nexxt)
-      @item = item
-      @next = nexxt
-    end
-
-    attr_accessor :item, :next
-
-    def clear
-      temp = item
-      self.item = self.next = nil
-      temp
-    end
+class Node
+  def initialize(item, nexxt)
+    @item = item
+    @next = nexxt
   end
 
+  attr_accessor :item, :next
+
+  def clear
+    temp = item
+    self.item = self.next = nil
+    temp
+  end
+end
+
+class SinglyLinkedList
   def initialize
     @size = 0
   end
